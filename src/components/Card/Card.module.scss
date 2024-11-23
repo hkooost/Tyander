@@ -1,0 +1,21 @@
+.card {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute;
+  padding: 10px;
+  background-color: #44475A;
+  &__img {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: inherit;
+  }
+  &__info {
+    margin: 10px 0;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
